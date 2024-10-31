@@ -70,7 +70,7 @@ function HomePage() {
                     </div>
 
                     <div className="cardAMF">
-                        <img src="https://i.pinimg.com/736x/b3/35/5b/b3355b0e6fb0a82a44de6d8b52e8f82c.jpg" alt="" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/logos-e6f60.appspot.com/o/yo.jpg?alt=media&token=f286a088-1992-4cb4-b00b-0ad1e3193228" alt="" />
                     </div>
 
                 </div>
@@ -99,10 +99,8 @@ function HomePage() {
                         <div className="skill"><img src="https://camo.githubusercontent.com/02059b269f8d3dd3a02d64359ebdec69d4e61441548edd6f2ed1c8b976112f38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f676f732d65366636302e61707073706f742e636f6d2f6f2f53514c7365727665722e776562703f616c743d6d6564696126746f6b656e3d64313964653934332d316662652d343631372d393961612d626236623333643566666532" alt="" /></div>
                         <div className="skill"><img src="https://camo.githubusercontent.com/c0f129a00373e0fee4b9e2c1a0fb2b444476806f6909c27613d2482d0f3808d3/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f676f732d65366636302e61707073706f742e636f6d2f6f2f4d7953514c2e776562703f616c743d6d6564696126746f6b656e3d38313036356232322d636262642d346337392d623964622d646663633032633362633933" alt="" /></div>
                         <div className="skill"><img src="https://camo.githubusercontent.com/a655d5ae3ebe542b1d3aaf20f498db5a0cec3397dab6f56ef08084de298f4d75/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f676f732d65366636302e61707073706f742e636f6d2f6f2f6d6f6e676f44422e776562703f616c743d6d6564696126746f6b656e3d35366330373465332d303337382d346231612d623562652d376137353730356564666433" alt="" /></div>
-                        <div className="skill"><img src="" alt="" /></div>
-                        <div className="skill"><img src="" alt="" /></div>
-                        <div className="skill"><img src="" alt="" /></div>
-                        <div className="skill"><img src="" alt="" /></div>
+                        <div className="skill"><img src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png" alt="" /></div>
+
                     </div>
 
                 </div>
@@ -123,11 +121,12 @@ function HomePage() {
                         <div className="card-proj">
 
                             <div className="card-img-pro">
-                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a05606b1-f828-4733-b86c-d6414bb0b583/dfk6ac8-6a908b41-d237-4ee9-aedc-170f209ecd91.png/v1/fill/w_1280,h_427,q_80,strp/hu_tao_banner_genshin_impact_by_illustriouslily_dfk6ac8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDI3IiwicGF0aCI6IlwvZlwvYTA1NjA2YjEtZjgyOC00NzMzLWI4NmMtZDY0MTRiYjBiNTgzXC9kZms2YWM4LTZhOTA4YjQxLWQyMzctNGVlOS1hZWRjLTE3MGYyMDllY2Q5MS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.WyKA5xWBPuQQ9jPB29AXYuzgyFn6W-cEhOd2IaKRXHs" alt="" />
+                                <img src="" alt="" />
                             </div>
 
                             <div className="card-des-pro">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, mollitia repudiandae? Sunt magnam et facilis quaerat, reiciendis labore optio quos harum corrupti minima fugit temporibus quo expedita? Quos, ipsum repellendus.
+                                <h5>BigBata Corp.</h5>
+                                <p>Eccomerce para la venta de Computadoras y laptops</p>
                             </div>
 
                         </div>
@@ -137,14 +136,13 @@ function HomePage() {
                         <div className="card-proj">
 
                             <div className="card-des-pro">
-                                <h5>Titulo</h5>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque a eum doloribus commodi quidem eaque, fugiat voluptatum debitis voluptas similique. Ea, distinctio voluptatum. Molestias, exercitationem aliquam eveniet consequuntur illum mollitia.</p>
+                                <h5>Geraldyne Show</h5>
+                                <p>Lading Page de anfitrionas para fiestas infantiles</p>
                             </div>
 
                             <div className="card-img-pro">
-                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a05606b1-f828-4733-b86c-d6414bb0b583/dfk6ac8-6a908b41-d237-4ee9-aedc-170f209ecd91.png/v1/fill/w_1280,h_427,q_80,strp/hu_tao_banner_genshin_impact_by_illustriouslily_dfk6ac8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDI3IiwicGF0aCI6IlwvZlwvYTA1NjA2YjEtZjgyOC00NzMzLWI4NmMtZDY0MTRiYjBiNTgzXC9kZms2YWM4LTZhOTA4YjQxLWQyMzctNGVlOS1hZWRjLTE3MGYyMDllY2Q5MS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.WyKA5xWBPuQQ9jPB29AXYuzgyFn6W-cEhOd2IaKRXHs" alt="" />
+                                <img src="" alt="" />
                             </div>
-
 
 
                         </div>
