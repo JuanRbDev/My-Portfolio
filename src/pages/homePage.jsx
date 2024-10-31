@@ -1,6 +1,15 @@
 import '../pages/homeStyle.css';
+import React from 'react';
 
 function HomePage() {
+
+    const DescargaCV = () => {
+        const link = document.createElement('a');
+        window.open('https://firebasestorage.googleapis.com/v0/b/logos-e6f60.appspot.com/o/MiCV.pdf?alt=media&token=e52ff567-f781-494e-8423-7557e55acf94', '_blank');
+        link.download = 'MiCV.pdf';
+        link.click();
+    };
+
     return (
         <div>
 
@@ -9,19 +18,20 @@ function HomePage() {
                     <h2>JuanRbDev</h2>
                     <nav className="navmenu">
                         <ul>
-                            <li><a href="">HOME</a></li>
-                            <li><a href="">ABOUT ME</a></li>
-                            <li><a href="">SKILLS</a></li>
-                            <li><a href="">PROJECTS</a></li>
+                            <li><a href="#banner">HOME</a></li>
+                            <li><a href="#aboutMe">ABOUT ME</a></li>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#projects">PROJECTS</a></li>
                         </ul>
                     </nav>
-                    <button>Descargar CV</button>
+
+                    <button onClick={DescargaCV}>Descargar CV</button>
                 </div>
             </header>
 
 
 
-            <section className="container-banner">
+            <section id='banner' className="container-banner">
                 <div className="banner">
 
                     <span className="linea2"></span>
@@ -59,7 +69,7 @@ function HomePage() {
 
 
 
-            <section className='container-aboutMe'>
+            <section id='aboutMe' className='container-aboutMe'>
 
                 <div className="aboutMe">
 
@@ -79,7 +89,7 @@ function HomePage() {
 
 
 
-            <section className='container-skills'>
+            <section id='skills' className='container-skills'>
 
 
                 <div className="skills">
@@ -109,7 +119,7 @@ function HomePage() {
 
 
 
-            <section className='container-projects'>
+            <section id='projects' className='container-projects'>
 
                 <div className="projects">
 
@@ -121,7 +131,7 @@ function HomePage() {
                         <div className="card-proj">
 
                             <div className="card-img-pro">
-                                <img src="" alt="" />
+                                <img src="" alt="Foto BigData Corp" />
                             </div>
 
                             <div className="card-des-pro">
@@ -141,7 +151,7 @@ function HomePage() {
                             </div>
 
                             <div className="card-img-pro">
-                                <img src="" alt="" />
+                                <img src="" alt="Foto Geraldyne Show" />
                             </div>
 
 

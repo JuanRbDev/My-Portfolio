@@ -488,7 +488,7 @@ header button:hover {
     min-width: 300px;
     max-width: 500px;
     height: 300px;
-    background-color: red;
+    background-color: rgb(32, 32, 32);
     border-radius: 20px;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -503,6 +503,7 @@ header button:hover {
 
 
 .card-des-pro {
+    width: 100%;
     height: 70%;
     padding: 20px;
     display: flex;
@@ -511,8 +512,6 @@ header button:hover {
     border-radius: 20px;
     color: #fff;
     border: #003CFF solid 1px;
-
-
 }
 
 
