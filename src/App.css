@@ -1,0 +1,90 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ef4444, #fff);
+  animation: rotateFondo infinite linear 1s;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+svg {
+  width: 200px;
+  height: 200px;
+}
+
+.heart {
+  fill: none;
+  stroke: #ef4444;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: draw 2s infinite forwards;
+}
+
+@keyframes draw {
+  from {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+
+  to {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+  }
+}
+
+
+@keyframes rotateFondo {
+
+  0% {
+    background: linear-gradient(#ef4444, #fff);
+
+  }
+
+
+  50% {
+    background: linear-gradient(#fff, #ef4444);
+
+  }
+
+  100% {
+    background: linear-gradient(#ef4444, #fff);
+
+  }
+}
+
+
+img {
+  border-radius: 50%
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+
+  h1 {
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  img {
+    width: 80%;
+  }
+
+
+}
